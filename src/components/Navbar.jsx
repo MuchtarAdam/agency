@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from '../assets/Logo.png';
+import logo from '../assets/icons8-yg-select-100.png';
 import { Link } from "react-scroll";
 
 import {FaXmark, FaBars} from "react-icons/fa6"
@@ -47,9 +47,9 @@ const Navbar = () => {
                 <div className="flex items-center justify-between gap-8 text-base">
                     <a href="" className="flex space-x-3 text-2xl font-semibold item-center">
                         
-                        <img src={logo} alt="Nexcent" className="items-center inline-block w-10"/>
+                        <img src={logo} alt="Nexcent" className="items-center inline-block w-8"/>
 
-                    <span className="text-[#263238]">NEXCENT</span>
+                    <span className="text-[#263238]">TanyaFisika</span>
                     
                     </a>
 
@@ -63,7 +63,7 @@ const Navbar = () => {
 
                     <div className="items-center hidden space-x12 lg:flex">
 
-                         <a href="" className="hidden lg:flex item-center text-brandPrimary hover:text-gray900">Login</a>
+                         <a href="" className="hidden lg:flex item-center text-brandPrimary hover:text-gray900 me-4">Login</a>
 
                         <button className="px-4 py-2 text-white transition-all duration-300 rounded hover:bg-neuturalDGrey bg-brandPrimary">Sign Up</button>
 
