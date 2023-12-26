@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from 'flowbite-react';
 import banner1 from "../assets/banner-1.png";
-import banner2 from "../assets/IMG_2276.png";
+import banner2 from "../assets/undraw_Experience_design_re_dmqq.png";
 
 const Home = () => {
     return(
