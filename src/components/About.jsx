@@ -29,10 +29,10 @@ const About = () => {
 
             </div>
 
-            <div className="px-4 mx-auto -mt-16 lg:px-14 max-w-screen-2xl bg-neuturalSilver">
-                <div className="flex flex-col items-center justify-between gap-8 pt-10 md:flex-row">
+            <div className="p-10 px-4 mx-auto lg:px-14 max-w-screen-2xl bg-neuturalSilver">
+                <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
 
-                    <div className="md:w1/2">
+                    <div className="md:w-1/2">
                         <h2 className="mb-4 text-4xl font-semibold text-neuturalDGrey">Helping bussiness <span className="block text-brandPrimary">reinvent itself</span></h2>
 
                         <p className="text-sm md:w-3/5 text-neuturalGrey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat</p>
@@ -52,10 +52,10 @@ const About = () => {
 
 
                             <div className="flex items-center gap-4">
-                                <img src={icon2} alt="" />
+                                <img src={icon3} alt="" />
                                 <div>
-                                    <h4 className="text-2xl font-semibold text-neuturalDGrey">679</h4>
-                                    <p>Members</p>
+                                    <h4 className="text-2xl font-semibold text-neuturalDGrey">2,133</h4>
+                                    <p>Bookings</p>
                                 </div>
                             </div>
 
@@ -64,19 +64,19 @@ const About = () => {
                         <div className="space-y-8">
 
                             <div className="flex items-center gap-4">
-                                <img src={icon1} alt="" />
+                                <img src={icon2} alt="" />
                                 <div>
-                                    <h4 className="text-2xl font-semibold text-neuturalDGrey">679</h4>
-                                    <p>Members</p>
+                                    <h4 className="text-2xl font-semibold text-neuturalDGrey">233</h4>
+                                    <p>Clubs</p>
                                 </div>
                             </div>
 
 
                             <div className="flex items-center gap-4">
-                                <img src={icon2} alt="" />
+                                <img src={icon4} alt="" />
                                 <div>
                                     <h4 className="text-2xl font-semibold text-neuturalDGrey">679</h4>
-                                    <p>Members</p>
+                                    <p>Payments</p>
                                 </div>
                             </div>
 
