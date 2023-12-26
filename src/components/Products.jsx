@@ -33,10 +33,10 @@ const Products = () =>{
 
             </div>
 
-            <div className="px-4 mx-auto -mt-16 lg:px-14 max-w-screen-2xl bg-neuturalSilver">
-                <div className="flex flex-col items-center justify-between gap-8 pt-10 md:flex-row ">
+            <div className="px-4 py-10 mx-auto -mt-16 lg:px-14 max-w-screen-2xl bg-neuturalSilver">
+                <div className="flex flex-col items-center justify-between gap-8 md:flex-row ">
 
-                    <div className="md:w-1/3 bg-slate-500">
+                    <div className="md:w-1/3">
                         <img src={imgProduct} alt="" />
                     </div>
 
