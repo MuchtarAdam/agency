@@ -5,6 +5,8 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Products from "./components/Products";
 import Blog from "./components/Blog";
+import MyFooter from "./components/MyFooter";
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
       <About/>
       <Products/>
       <Blog/>
+      <MyFooter/>
     </>
   );
 }
