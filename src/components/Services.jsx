@@ -53,7 +53,7 @@ const Services = () => {
                 <p className="text-neuturalGrey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quod!</p>
             </div>
 
-            <div className="grid grid-cols-1 gap-12 mx-auto mt-14 lg:grid-cols-3 md:grid-cols-2 md:w-11/12">
+            <div className="grid grid-cols-1 gap-12 mx-auto my-14 lg:grid-cols-3 md:grid-cols-2 md:w-11/12">
                 {
                     services.map(
                         services => 
