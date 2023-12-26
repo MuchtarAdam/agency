@@ -1,8 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+export default {
+  content: [
+    "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'neutural-silver': '#F5F7FA',
+        'neuturalDGrey': '#4D4D4D',
+        'brandPrimary': '#4CAF4F',
+        'neuturalGrey': '#717171',
+        'gray900': '#18191F',
+      }
+    },
   },
   plugins: [],
 }
